@@ -1,3 +1,3 @@
 # scree-recorder_py
 screen recorder in python3
- <img src="https://github.com/addddd123/scree-recorder_py/blob/master/a.jpg" alt="problem in image "> </img>
+ <img src="https://github.com/addddd123/scree-recorder_py/blob/master/a.jpg" > </img>
