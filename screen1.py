@@ -9,15 +9,17 @@ def call():
     import os
     k=input(" enter name of video sequence ")
     im1 = pyautogui.screenshot()
-    i=0
+    i=1
     j=''
-    while i<=10:
-        
-        j=str(i)
-        m=k+j+'.png'
-        print(k,j)
-        im2 = pyautogui.screenshot(m)
-        i=i+1
+    try:
+        while i:
+            
+            j=str(i)
+            m=k+j+'.png'
+            print(k,j)
+            im2 = pyautogui.screenshot(m)
+    except KeyboardInterrupt:
+        print("hyyyy") 
 
     
     img_array = []
@@ -60,4 +62,3 @@ btn2=Button(root,text="stop",command=exit,fg="black", width=12,height=7,bg="red"
 btn2.pack()
 
 root.mainloop()
-
